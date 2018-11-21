@@ -2,7 +2,7 @@
 def valid_move?(board, index)
   vallid = nil
   if (index < 1 || index > 9)
-    valid=false
+     return false
   end
   if position_taken?(board, index)
     valid=false
